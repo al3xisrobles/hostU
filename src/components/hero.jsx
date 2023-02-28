@@ -17,21 +17,21 @@ function Hero() {
   }, []); // Only run this effect once when the component mounts
 
   return (
-    <section className="w-full h-screen min-h-screen" id="home">
-      <div className="px-24 font-bold h-full flex flex-wrap items-center">
+    <section className="w-full flex justify-center h-screen min-h-screen" id="home">
+      <div className="px-24 max-w-9xl font-bold h-full flex flex-wrap items-center">
 
         {/* Left Side */}
-        <div className="w-full sm:w-1/2 flex flex-col justify-center text-7xl">
+        <div className="w-full flex flex-col justify-center text-8xl">
           <p>hostU, for students who</p>
           <p className="text-purple-500">{subtitleList[subtitleIndex]}</p>
         </div>
 
         {/* Right Side */}
-        <div className="w-full sm:w-1/2 flex items-center justify-center">
+        {/* <div className="w-full sm:w-1/2 flex items-center justify-center">
           <div className='w-3/4 h-[300px] flex justify-center items-center custom-shadow rounded-3xl'>
             <p>Graphic</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

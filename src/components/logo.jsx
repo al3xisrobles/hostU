@@ -12,7 +12,7 @@ function Logo(props) {
             Custom Colors:
               bg-purple-gradient
         */}
-        <div className={`w-9 ml-1 flex justify-center items-center rounded-[50px] ${props.bgColor}`}>
+        <div className={`w-7 ml-1 flex justify-center items-center rounded-[50%] ${props.bgColor}`}>
 
           {/* U */}
           <p className={`${props.textColor}`}>U</p>

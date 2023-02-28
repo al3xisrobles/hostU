@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/navbar'
 import Footer from './components/footer'
 import Hero from './components/hero'
+import HostGuest from './components/hostguest'
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -38,6 +39,7 @@ function Stack() {
             <div>
               <Navbar/>
               <Hero/>
+              <HostGuest/>
               <Footer/>
             </div>
           }/>
